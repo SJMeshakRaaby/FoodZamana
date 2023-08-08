@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FoodZamana - Payment Options</title>  
+    <link rel = "stylesheet" type = "text/css" href = "index/footer.css">
+</head>
+<body>
+    <div class="img">
+        <img src="assets/mainlogo.png">
+    </div>
+    <div id="frm">
+    <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">
+        <div class="text1">
+       <label for="cars"><b>Payments Available  :</b></label>
+    <select name="cars" id="cars" class="custom-select" style="width:200px;">
+      <optgroup label="Card">
+        <option value="creditcard">Credit Card</option>
+        <option value="debitcard">Debit Card</option>
+      </optgroup>
+      <optgroup label="UPI">
+        <option value="gpay">GooglePay</option>
+        <option value="phonepe">PhonePay</option>
+        <option value="paytm">PayTm</option>
+        <option value="bharatpe">BharatPe</option>
+    </optgroup>
+    </select>
+        </div>
+      <br>
+      <input type="submit" id="btn" value="Continue">
+    </form>
+    <br>
+    <p>* Cash on delivery is not available in our service *</p>
+    </div>
+    <script>  
+        function validation()  
+        {  
+            var id=document.f1.forgot.value; 
+            if(id.length=="") {  
+                alert("Please enter your Username!");  
+                return false;  
+            }  
+                                       
+        }  
+    </script>
+</body>
+</html>

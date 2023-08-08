@@ -1,0 +1,49 @@
+Body{
+    font-family: Calibri, Helvetica, sans-serif ;background-image:url(assets/loginpic.jpg);background-size: cover;
+  background-repeat: no-repeat  
+  } 
+  #btn{   
+    background-color:#A0522D;      
+    width: 8%;  
+    color: white;   
+    padding: 10px;   
+    margin: 7px 0px;   
+    border: none;   
+    cursor: pointer;
+    border-radius: 7px;   
+  }
+  input[type=text], input[type=password]{  
+    margin="center";
+    width: 25%;   
+    margin: 4px 0;  
+    padding: 10px 10px;   
+    display: inline-block;   
+    border: 2px black;
+    box-sizing: border-box;
+    border-radius: 5px;   
+  }    
+  #frm{   
+    border: 30% solid #f1f1f1;
+    width=50%;
+    margin: 10px auto;
+    margin-left: 200px;   
+  }     
+  #btn:hover{   
+    opacity: 0.7;   
+  }   
+  .cancelbtn{   
+    width: auto;   
+    padding: 10px 18px;  
+    margin: 10px 5px;  
+  }   
+  img{
+    width:70px;
+    margin-left: 360px;
+    margin-top: 180px;
+  }
+  .text1{
+    font-style:italic;
+    font-size: 130%;
+    margin-right: 47%;
+    margin-top: 20px;
+  }
